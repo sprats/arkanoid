@@ -343,9 +343,6 @@ update_text()
 ------------------------------------------
 -- to return this module to the main scene
 ------------------------------------------
-local field = {balance = 100}
-field.translate_frame = translate_frame
-field.move_field_card = move_field_card
-
+local field = {}
 
 return field
