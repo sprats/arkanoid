@@ -3,8 +3,6 @@ application =
 
 	content =
 	{
-		--width = 768,
-		--height = 1024,
 		width = 800,
 		height = 1280,
 		scale = "letterbox",
@@ -20,17 +18,4 @@ application =
 		
 	},
 
-	--[[
-	-- Push notifications
-	notification =
-	{
-		iphone =
-		{
-			types =
-			{
-				"badge", "sound", "alert", "newsstand"
-			}
-		}
-	},
-	--]]    
 }
