@@ -108,8 +108,6 @@ end
 -- END of the level
 -------------------
 local function level_end()
-    --audio.play( win_sound )
-
     data.level = data.level + 1
     update_text()
     ball._in_action = false
@@ -164,7 +162,6 @@ local function init()
                     obj._focus = true
                     data.points = data.points + POINTS_MULTIPLIER * data.level
                     update_text()
-                    --audio.play( explosion )
                     timer.performWithDelay(1, transition.scaleTo( obj, { xScale=0.01, yScale=0.01, time=500, onComplete = after_removing } ) )
 
                 end
